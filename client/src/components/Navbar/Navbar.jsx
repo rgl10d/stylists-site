@@ -1,14 +1,15 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   const location = useLocation();
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-      <div className="container-fluid">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary transparent-bg" data-bs-theme="dark">
+      <div id="nav-element" className="container-fluid transparent-bg">
         <Link className="navbar-brand" to="/">
-          Kami-Kami
+          Kelly Cuts
         </Link>
         <button
           className="navbar-toggler"
@@ -35,7 +36,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link disabled" to="/">
-                Pricing
+                Styles
               </Link>
             </li>
             <li className="nav-item dropdown">

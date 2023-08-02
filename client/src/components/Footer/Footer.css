@@ -1,0 +1,17 @@
+#footer-container {
+    box-sizing: border-box;  
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(43, 40, 40);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-elements {
+    width: 1500px;
+}
+
+.footer-item {
+    margin: 0px 10px;
+}

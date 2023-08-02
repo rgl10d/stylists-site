@@ -1,0 +1,9 @@
+#home-hero {
+    width: 100vw;
+    height: 1080px;
+    background-image: url("../../assets/beautiful-hair.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
