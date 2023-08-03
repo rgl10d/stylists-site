@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary transparent-bg" data-bs-theme="dark">
       <div id="nav-element" className="container-fluid transparent-bg">
         <Link className="navbar-brand" to="/">
-          Kelly Cuts
+          Kelly Moore
         </Link>
         <button
           className="navbar-toggler"

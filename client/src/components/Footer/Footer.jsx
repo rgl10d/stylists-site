@@ -19,7 +19,7 @@ const Footer = () => {
                         <p>Book Appointment</p>
                     </li>
                 </ul>
-                <p id="copyright-text" className='text-center'>Kelly Cuts</p>
+                <p id="copyright-text" className='text-center'>Kelly Moore</p>
             </footer>
         </div>
     );
