@@ -48,21 +48,44 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* Testing Card Carousel */}
+      {/* Instagram Section */}
       <div id="home-instagram-section" className="container-fluid">
         <div id="home-instagram-row" className="row">
-        <h1 id="home-instagram-title">My Instagram</h1>
-          <div className="col-sm-3">
-            <img src="https://placehold.co/300" className="home-instagram-images" alt="placeholder" />
+          <div id="home-instagram-title" className="row">
+            <div className="col-sm-11">
+            <h1>My Instagram</h1>
+            </div>
+            <div className="col-sm-1">
+            <button className="btn btn-primary">See All</button>
+            </div>
           </div>
           <div className="col-sm-3">
-            <img src="https://placehold.co/300" className="home-instagram-images" alt="placeholder" />
+            <img
+              src="https://placehold.co/300"
+              className="home-instagram-images"
+              alt="placeholder"
+            />
           </div>
           <div className="col-sm-3">
-            <img src="https://placehold.co/300" className="home-instagram-images" alt="placeholder" />
+            <img
+              src="https://placehold.co/300"
+              className="home-instagram-images"
+              alt="placeholder"
+            />
           </div>
           <div className="col-sm-3">
-            <img src="https://placehold.co/300" className="home-instagram-images" alt="placeholder" />
+            <img
+              src="https://placehold.co/300"
+              className="home-instagram-images"
+              alt="placeholder"
+            />
+          </div>
+          <div className="col-sm-3">
+            <img
+              src="https://placehold.co/300"
+              className="home-instagram-images"
+              alt="placeholder"
+            />
           </div>
         </div>
       </div>
