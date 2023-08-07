@@ -48,6 +48,24 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* Testing Card Carousel */}
+      <div id="home-instagram-section" className="container-fluid">
+        <div id="home-instagram-row" className="row">
+        <h1 id="home-instagram-title">My Instagram</h1>
+          <div className="col-sm-3">
+            <img src="https://placehold.co/300" className="home-instagram-images" alt="placeholder" />
+          </div>
+          <div className="col-sm-3">
+            <img src="https://placehold.co/300" className="home-instagram-images" alt="placeholder" />
+          </div>
+          <div className="col-sm-3">
+            <img src="https://placehold.co/300" className="home-instagram-images" alt="placeholder" />
+          </div>
+          <div className="col-sm-3">
+            <img src="https://placehold.co/300" className="home-instagram-images" alt="placeholder" />
+          </div>
+        </div>
+      </div>
       <Footer />
     </>
   );
