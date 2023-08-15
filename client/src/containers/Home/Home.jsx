@@ -10,15 +10,15 @@ const Home = () => {
       <Navbar />
       {/* Hero Image */}
       <div id="home-hero" className="container-fluid">
-        <div id="triangle-mask">
-          <p id="hero-btn-description">Ready for a new you?</p>
-          <Link
-            id="home-hero-appointment-btn"
-            className="btn btn-primary"
-            to="/about"
-          >
-            Book an Appointment
-          </Link>
+        <div className="row justify-content-center align-items-center vh-100">
+          <div className="col-md-6 text-center">
+            <div id="opaque-box" className="p-4">
+              <h2>Ready For A New You?</h2>
+              <p>Check out the style catalog!</p>
+              <Link className="btn btn-primary mr-2">Book an Appointment</Link>
+              <button className="btn btn-secondary">Style Catalog</button>
+            </div>
+          </div>
         </div>
         <div id="hero-gradient" />
       </div>
@@ -44,20 +44,24 @@ const Home = () => {
             <button className="btn btn-danger">About Me!</button>
           </div>
           <div className="col-sm-6 d-flex justify-content-center align-items-center">
-            <img className="img-fluid" src="https://placehold.co/400" alt="placeholder" />
+            <img
+              className="img-fluid"
+              src="https://placehold.co/400"
+              alt="placeholder"
+            />
           </div>
         </div>
       </section>
       {/* Instagram Section */}
-      <div id="home-instagram-section" className="container-fluid">
+      <div id="home-instagram-section" className="container-fluid mt-5">
         <div id="home-instagram-row" className="row">
           {/* <div id="home-instagram-title" className="row"> */}
-            <div className="col-sm-11">
-              <h1>My Instagram</h1>
-            </div>
-            <div className="col-sm-1 d-flex justify-content-end align-items-center">
-              <button className="btn btn-primary">See All</button>
-            </div>
+          <div className="col-sm-11">
+            <h1>My Instagram</h1>
+          </div>
+          <div className="col-sm-1 d-flex justify-content-end align-items-center">
+            <button className="btn btn-primary">See All</button>
+          </div>
           {/* </div> */}
           <div className="col-md-3 mt-3">
             <img
@@ -87,6 +91,12 @@ const Home = () => {
               alt="placeholder"
             />
           </div>
+        </div>
+      </div>
+      {/* Testimonials Section */}
+      <div id="testimonials-section" className="container-fluid mt-5">
+        <div className="row">
+          <h1>Testimonials</h1>
         </div>
       </div>
       <Footer />
