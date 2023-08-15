@@ -23,8 +23,8 @@ const Home = () => {
         <div id="hero-gradient" />
       </div>
       {/* About Me Section */}
-      <section id="home-about-section" className="container-fluid">
-        <div className="row">
+      <section className="container">
+        <div id="home-about-section" className="row">
           <div className="col-sm-6">
             <h3>I'm Kelly, nice to meet you!</h3>
             <p>
@@ -43,47 +43,47 @@ const Home = () => {
             </p>
             <button className="btn btn-danger">About Me!</button>
           </div>
-          <div className="col-sm-6">
-            <img src="https://placehold.co/400" alt="placeholder" />
+          <div className="col-sm-6 d-flex justify-content-center align-items-center">
+            <img className="img-fluid" src="https://placehold.co/400" alt="placeholder" />
           </div>
         </div>
       </section>
       {/* Instagram Section */}
       <div id="home-instagram-section" className="container-fluid">
         <div id="home-instagram-row" className="row">
-          <div id="home-instagram-title" className="row">
+          {/* <div id="home-instagram-title" className="row"> */}
             <div className="col-sm-11">
-            <h1>My Instagram</h1>
+              <h1>My Instagram</h1>
             </div>
-            <div className="col-sm-1">
-            <button className="btn btn-primary">See All</button>
+            <div className="col-sm-1 d-flex justify-content-end align-items-center">
+              <button className="btn btn-primary">See All</button>
             </div>
-          </div>
-          <div className="col-sm-3">
+          {/* </div> */}
+          <div className="col-md-3 mt-3">
             <img
               src="https://placehold.co/300"
-              className="home-instagram-images"
+              className="home-instagram-images img-fluid"
               alt="placeholder"
             />
           </div>
-          <div className="col-sm-3">
+          <div className="col-md-3 mt-3">
             <img
               src="https://placehold.co/300"
-              className="home-instagram-images"
+              className="home-instagram-images img-fluid"
               alt="placeholder"
             />
           </div>
-          <div className="col-sm-3">
+          <div className="col-md-3 mt-3">
             <img
               src="https://placehold.co/300"
-              className="home-instagram-images"
+              className="home-instagram-images img-fluid"
               alt="placeholder"
             />
           </div>
-          <div className="col-sm-3">
+          <div className="col-md-3 mt-3">
             <img
               src="https://placehold.co/300"
-              className="home-instagram-images"
+              className="home-instagram-images img-fluid"
               alt="placeholder"
             />
           </div>

@@ -8,7 +8,7 @@
     background-position: center;
     position: relative;
     overflow: hidden;
-    display: flex;
+    padding: 0px;
 }
 
 #home-hero-appointment-btn {
@@ -55,6 +55,9 @@
 #home-about-section {
   height: 600px;
   background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #home-about-section p {
@@ -66,15 +69,20 @@
   background-color: #333333;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  margin-top: 50px;
+  padding-top: 20px;
 }
 
-#home-instagram-title {
-  border-bottom: solid white 1px;
+#home-instagram-row {
   color: white;
   margin-bottom: 30px;
 }
 
-.home-instagram-images {
-  border-radius: 10px;
+#home-instagram-row h1 {
+  border-bottom: solid white 1px;
 }
+
+/* .home-instagram-images {
+  border-radius: 10px;
+  justify-content: space-around;
+} */
